@@ -1,5 +1,6 @@
 #!/usr/bin/env groovy
 
+
 node('master') {
     stage('build') {
         git url: 'git@github.com:LiamDocker/dockerized-app.git'
